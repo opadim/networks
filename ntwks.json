@@ -68,10 +68,10 @@
     {
         "name": "Clickbank",
         "parameters": [
-            "tid_1",
-            "tid_2"
+            "Nome da conversão",
+            "Click ID"
         ],
-      "highlight": "tid_2"
+      "highlight": "Click ID"
     },
     {
         "name": "Clickdealer",
