@@ -18,7 +18,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "Affbay",
@@ -28,7 +29,8 @@
             "subid3",
             "subid4",
             "subid5"
-        ]
+        ],
+      "highlight": "subid2"
     },
     {
         "name": "Ambalaya",
@@ -38,7 +40,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "BlitzAds",
@@ -48,7 +51,8 @@
             "s3",
             "s4",
             "s5"
-        ]
+        ],
+      "highlight": "s2"
     },
     {
         "name": "Buygoods",
@@ -58,14 +62,16 @@
             "subid3",
             "subid4",
             "subid5"
-        ]
+        ],
+      "highlight": "subid2"
     },
     {
         "name": "Clickbank",
         "parameters": [
             "tid_1",
             "tid_2"
-        ]
+        ],
+      "highlight": "tid_2"
     },
     {
         "name": "Clickdealer",
@@ -75,7 +81,8 @@
             "s3",
             "s4",
             "s5"
-        ]
+        ],
+      "highlight": "s2"
     },
     {
         "name": "ClickFlow",
@@ -85,7 +92,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "Digistore24",
@@ -96,7 +104,8 @@
             "sid4",
             "sid5",
             "cid"
-        ]
+        ],
+      "highlight": "cid"
     },
     {
         "name": "Dr.Cash",
@@ -106,7 +115,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "Everflow",
@@ -116,7 +126,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "Gasmobi",
@@ -132,7 +143,8 @@
             "aff_sub3",
             "aff_sub4",
             "aff_sub5"
-        ]
+        ],
+      "highlight": "aff_sub2"
     },
     {
         "name": "Gurumedia",
@@ -142,7 +154,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "HealthTrader",
@@ -151,7 +164,8 @@
             "subid_two",
             "subid_three",
             "click_id"
-        ]
+        ],
+      "highlight": "click_id"
     },
     {
         "name": "LeadRock",
@@ -161,7 +175,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "LeadReaktor",
@@ -171,7 +186,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "LemonAd",
@@ -181,14 +197,16 @@
             "utm_campaign",
             "utm_content",
             "utm_term"
-        ]
+        ],
+      "highlight": "utm_medium"
     },
     {
         "name": "Maxbounty",
         "parameters": [
             "s1",
             "s2"
-        ]
+        ],
+      "highlight": "s2"
     },
     {
         "name": "Maxweb",
@@ -198,7 +216,8 @@
             "subid3",
             "subid4",
             "subid5"
-        ]
+        ],
+      "highlight": "subid2"
     },
     {
         "name": "MoreNiche",
@@ -208,7 +227,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "Nutriprofits",
@@ -217,7 +237,8 @@
             "param_2",
             "param_3",
             "param_4"
-        ]
+        ],
+      "highlight": "param_2"
     },
     {
         "name": "SellHealth",
@@ -227,7 +248,8 @@
             "t3",
             "t4",
             "t5"
-        ]
+        ],
+      "highlight": "t2"
     },
     {
         "name": "SmartAdv",
@@ -237,7 +259,8 @@
             "sub3",
             "sub4",
             "sub5"
-        ]
+        ],
+      "highlight": "sub2"
     },
     {
         "name": "Webvork",
@@ -246,7 +269,8 @@
             "utm_campaign",
             "utm_content",
             "utm_term"
-        ]
+        ],
+      "highlight": "utm_campaign"
     },
     {
         "name": "TerraLeads",
@@ -256,6 +280,7 @@
             "sub_id_2",
             "sub_id_3",
             "sub_id_4"
-        ]
+        ],
+      "highlight": "sub_id_1"
     }
 ]
