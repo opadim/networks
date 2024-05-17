@@ -1,0 +1,261 @@
+[
+    {
+        "name": "Adcombo",
+        "parameters": [
+            "subacc",
+            "subacc2",
+            "subacc3",
+            "subacc4",
+            "clickid"
+        ],
+      "highlight": "clickid"
+    },
+    {
+        "name": "Adexico",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Affbay",
+        "parameters": [
+            "subid",
+            "subid2",
+            "subid3",
+            "subid4",
+            "subid5"
+        ]
+    },
+    {
+        "name": "Ambalaya",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "BlitzAds",
+        "parameters": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5"
+        ]
+    },
+    {
+        "name": "Buygoods",
+        "parameters": [
+            "subid",
+            "subid2",
+            "subid3",
+            "subid4",
+            "subid5"
+        ]
+    },
+    {
+        "name": "Clickbank",
+        "parameters": [
+            "tid_1",
+            "tid_2"
+        ]
+    },
+    {
+        "name": "Clickdealer",
+        "parameters": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5"
+        ]
+    },
+    {
+        "name": "ClickFlow",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Digistore24",
+        "parameters": [
+            "sid1",
+            "sid2",
+            "sid3",
+            "sid4",
+            "sid5",
+            "cid"
+        ]
+    },
+    {
+        "name": "Dr.Cash",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Everflow",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Gasmobi",
+        "parameters": [
+            "sub_id"
+        ]
+    },
+    {
+        "name": "GiantMobi",
+        "parameters": [
+            "aff_sub1",
+            "aff_sub2",
+            "aff_sub3",
+            "aff_sub4",
+            "aff_sub5"
+        ]
+    },
+    {
+        "name": "Gurumedia",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "HealthTrader",
+        "parameters": [
+            "subid_one",
+            "subid_two",
+            "subid_three",
+            "click_id"
+        ]
+    },
+    {
+        "name": "LeadRock",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "LeadReaktor",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "LemonAd",
+        "parameters": [
+            "utm_source",
+            "utm_medium",
+            "utm_campaign",
+            "utm_content",
+            "utm_term"
+        ]
+    },
+    {
+        "name": "Maxbounty",
+        "parameters": [
+            "s1",
+            "s2"
+        ]
+    },
+    {
+        "name": "Maxweb",
+        "parameters": [
+            "subid",
+            "subid2",
+            "subid3",
+            "subid4",
+            "subid5"
+        ]
+    },
+    {
+        "name": "MoreNiche",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Nutriprofits",
+        "parameters": [
+            "param",
+            "param_2",
+            "param_3",
+            "param_4"
+        ]
+    },
+    {
+        "name": "SellHealth",
+        "parameters": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+        ]
+    },
+    {
+        "name": "SmartAdv",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Webvork",
+        "parameters": [
+            "utm_medium",
+            "utm_campaign",
+            "utm_content",
+            "utm_term"
+        ]
+    },
+    {
+        "name": "TerraLeads",
+        "parameters": [
+            "sub_id",
+            "sub_id_1",
+            "sub_id_2",
+            "sub_id_3",
+            "sub_id_4"
+        ]
+    }
+]
