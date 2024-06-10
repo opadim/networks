@@ -74,6 +74,25 @@
       "highlight": "Click ID"
     },
     {
+        "name": "Clickbank v8.0",
+        "parameters": [
+            "aff_sub1",
+            "aff_sub2",
+            "aff_sub3",
+            "aff_sub4",
+            "aff_sub5",
+            "traffic_type",
+            "traffic_source",
+            "offer",
+            "campaign",
+            "adgroup,
+            "ad",
+            "creative",
+            "extclid"
+        ],
+      "highlight": "extclid"
+    },
+    {
         "name": "Clickdealer",
         "parameters": [
             "s1",
