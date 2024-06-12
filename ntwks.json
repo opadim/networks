@@ -181,7 +181,7 @@
         "parameters": [
             "subid_one",
             "subid_two",
-            "subid_three",
+            "subid_three"
         ],
       "highlight": "subid_two"
     },
