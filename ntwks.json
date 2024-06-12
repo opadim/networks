@@ -182,9 +182,8 @@
             "subid_one",
             "subid_two",
             "subid_three",
-            "click_id"
         ],
-      "highlight": "click_id"
+      "highlight": "subid_two"
     },
     {
         "name": "LeadRock",
