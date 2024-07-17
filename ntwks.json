@@ -8,7 +8,8 @@
             "subacc4",
             "clickid"
         ],
-      "highlight": "clickid"
+        "highlight": "clickid",
+        "postbackQueryString": "?orderid={trans_id}&product={offer_id}&amount={revenue}&currency=USD&cannoli=Adcombo&subid1={subacc}&subid2={subacc2}&subid3={subacc3}&subid4={subacc4}&cid={clickid}&type={status}&status=approved&dash=1"
     },
     {
         "name": "Adexico",
@@ -19,7 +20,8 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=Adexico&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "Affbay",
@@ -30,7 +32,8 @@
             "subid4",
             "subid5"
         ],
-      "highlight": "subid2"
+        "highlight": "subid2",
+        "postbackQueryString": "?orderid={contact_id}&amount={payout}&product={product}&subid1={subid1}&subid2={subid2}&subid3={subid3}&subid4={subid4}&subid5={subid5}&cid={click_id}&currency=USD&status=approved&cannoli=Affbay"
     },
     {
         "name": "Ambalaya",
@@ -41,7 +44,8 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=Ambalaya&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "BlitzAds",
@@ -52,7 +56,8 @@
             "s4",
             "s5"
         ],
-      "highlight": "s2"
+        "highlight": "s2",
+        "postbackQueryString": "?orderid=#tid#&amount=#price#&cy=USD&status=approved&product=#oid#&cannoli=BlitzAds&dash=1&subid1=#s1#&subid2=#s2#&subid3=#s3#&subid4=#s4#&subid5=#s5#"
     },
     {
         "name": "Buygoods",
@@ -63,7 +68,8 @@
             "subid4",
             "subid5"
         ],
-      "highlight": "subid2"
+        "highlight": "subid2",
+        "postbackQueryString": "?orderid={ORDERID}&amount={COMMISSION_AMOUNT}&cy=USD&status=approved&product={PRODUCT_CODENAME}&cannoli=BuyGoods&dash=1&subid1={SUBID}&subid2={SUBID2}&subid3={SUBID3}&subid4={SUBID4}&subid5={SUBID5}"
     },
     {
         "name": "Clickbank",
@@ -71,7 +77,8 @@
             "Nome da conversão",
             "Click ID"
         ],
-      "highlight": "Click ID"
+        "highlight": "Click ID",
+        "postbackQueryString": ""
     },
     {
         "name": "Clickbank v8.0",
@@ -90,7 +97,8 @@
             "creative",
             "extclid"
         ],
-      "highlight": "extclid"
+        "highlight": "extclid",
+        "postbackQueryString": ""
     },
     {
         "name": "Clickdealer",
@@ -101,7 +109,8 @@
             "s4",
             "s5"
         ],
-      "highlight": "s2"
+        "highlight": "s2",
+        "postbackQueryString": "?orderid=#tid#&amount=#price#&cy=#currency#&status=approved&cannoli=Clickdealer&dash=1&subid1=#s1#&subid2=#s2#&subid3=#s3#&subid4=#s4#&subid5=#s5#"
     },
     {
         "name": "ClickFlow",
@@ -112,7 +121,8 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=ClickFlow&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "Digistore24",
@@ -124,7 +134,8 @@
             "sid5",
             "cid"
         ],
-      "highlight": "cid"
+        "highlight": "cid",
+        "postbackQueryString": "?orderid={transaction_id}&amount={amount_affiliate}&cy={currency}&status={billing_status}&product={product_name}&cannoli=Digistore24&dash=1&subid1={sid1}&subid2={sid2}&subid3={sid3}&subid4={sid4}&subid5={sid5}&cid={cid}"
     },
     {
         "name": "Dr.Cash",
@@ -135,7 +146,8 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={uuid}&product={offer}&amount={payment}&cy={currency}&status=approved&type={status}&cannoli=DrCash&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "Everflow",
@@ -146,13 +158,15 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=SmartAdv&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "Gasmobi",
         "parameters": [
             "sub_id"
-        ]
+        ],
+        "postbackQueryString": "?orderid={tx_id}&amount={payout}&cy=USD&status=approved&cannoli=Gasmobi&product={offer}&dash=1&subid1={sub_id}&cid={externalid}"
     },
     {
         "name": "GiantMobi",
@@ -163,7 +177,8 @@
             "aff_sub4",
             "aff_sub5"
         ],
-      "highlight": "aff_sub2"
+        "highlight": "aff_sub2",
+        "postbackQueryString": "?orderid={event_id}&amount={payout}&cy={currency}&status=approved&product={offer_id}&cannoli=GiantMobi&dash=1&subid1={aff_sub1}&subid2={aff_sub2}&subid3={aff_sub3}&subid4={aff_sub4}&subid5={aff_sub5}&cid={click_id}"
     },
     {
         "name": "Gurumedia",
@@ -174,7 +189,8 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=Gurumedia&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "HealthTrader",
@@ -183,18 +199,8 @@
             "subid_two",
             "subid_three"
         ],
-      "highlight": "subid_two"
-    },
-    {
-        "name": "LeadRock",
-        "parameters": [
-            "sub1",
-            "sub2",
-            "sub3",
-            "sub4",
-            "sub5"
-        ],
-      "highlight": "sub2"
+        "highlight": "subid_two",
+        "postbackQueryString": "?orderid=[commission_id]&amount=[commission_amount]&product=[product_name]&status=approved&cy=USD&cannoli=HealthTrader&dash=1&subid1=[subid_one]&subid2=[subid_two]&subid3=[subid_three]&subid4=[referring_url]"
     },
     {
         "name": "LeadReaktor",
@@ -205,7 +211,20 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={lead_id}&amount={profit}&cy={curr}&status=approved&type={status}&product={offer_name}&cannoli=LeadReaktor&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
+    },
+    {
+        "name": "LeadRock",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={leadId}&amount={lead_price}&cy=USD&product={offerId}&cannoli=LeadRock&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}&status=approved&dash=1"
     },
     {
         "name": "LemonAd",
@@ -216,7 +235,8 @@
             "utm_content",
             "utm_term"
         ],
-      "highlight": "utm_medium"
+        "highlight": "utm_medium",
+        "postbackQueryString": "?orderid={leadid}&product=&amount={payout}&cy={currency}&status=approved&type={status}&cannoli=LemonAd&dash=1&subid1={utmSource}&subid2={utmMedium}&subid3={utmCampaign}&subid4={utmContent}&subid5={utmTerm}&cid={clickid}"
     },
     {
         "name": "Maxbounty",
@@ -224,7 +244,8 @@
             "s1",
             "s2"
         ],
-      "highlight": "s2"
+        "highlight": "s2",
+        "postbackQueryString": "?amount=#RATE#&cy=USD&status=approved&product=#OFFID#&cannoli=Maxbounty&dash=1&subid1=#S1#&subid2=#S2#"
     },
     {
         "name": "Maxweb",
@@ -235,7 +256,8 @@
             "subid4",
             "subid5"
         ],
-      "highlight": "subid2"
+        "highlight": "subid2",
+        "postbackQueryString": "?orderid={ORDERID}&amount={COMMISSION_AMOUNT}&cy=USD&status=approved&product={PRODUCT_CODENAME}&cannoli=Maxweb&dash=1&subid1={SUBID}&subid2={SUBID2}&subid3={SUBID3}&subid4={SUBID4}&subid5={SUBID5}"
     },
     {
         "name": "MoreNiche",
@@ -246,7 +268,8 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=MoreNiche&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "Nutriprofits",
@@ -256,7 +279,8 @@
             "param_3",
             "param_4"
         ],
-      "highlight": "param_2"
+        "highlight": "param_2",
+        "postbackQueryString": "?orderid=&amount={payout_usd}&cy=USD&status=approved&type={payment}&product=&cannoli=Nutriprofits&dash=1&subid1={param}&subid2={param_2}&subid3={param_3}&subid4={param_4}"
     },
     {
         "name": "SellHealth",
@@ -267,7 +291,8 @@
             "t4",
             "t5"
         ],
-      "highlight": "t2"
+        "highlight": "t2",
+        "postbackQueryString": "?orderid=[ORDER-NUMBER]&amount=[COMMISSION]&cy=USD&status=approved&cannoli=SellHealth&dash=1&subid1=[TRACKING-ID-1]&subid2=[TRACKING-ID-2]&subid3=[TRACKING-ID-3]&subid4=[TRACKING-ID-4]&subid5=[TRACKING-ID-5]"
     },
     {
         "name": "SmartAdv",
@@ -278,7 +303,8 @@
             "sub4",
             "sub5"
         ],
-      "highlight": "sub2"
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=SmartAdv&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "Webvork",
@@ -288,7 +314,8 @@
             "utm_content",
             "utm_term"
         ],
-      "highlight": "utm_campaign"
+        "highlight": "utm_campaign",
+        "postbackQueryString": "?orderid={lead_guid}&status=approved&amount={money}&cy={currency}&cannoli=Webvork&subid1={utm_medium}&subid2={utm_campaign}&subid3={utm_content}&subid4={utm_term}"
     },
     {
         "name": "TerraLeads",
@@ -299,6 +326,7 @@
             "sub_id_3",
             "sub_id_4"
         ],
-      "highlight": "sub_id_1"
+        "highlight": "sub_id_1",
+        "postbackQueryString": "?orderid={lead_id}&amount={payout}&cy=USD&status=approved&product={offer_id}&cannoli=TerraLeads&dash=1&subid1={sub_id}&subid2={sub_id_1}&subid3={sub_id_2}&subid4={sub_id_3}&subid5={sub_id_4}"
     }
 ]
