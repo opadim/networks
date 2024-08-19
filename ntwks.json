@@ -127,6 +127,41 @@
         "postbackQueryString": "orderid={conversion_id}&product={offer_id}&amount={payout}&cy={currency}&status=approved&type={status}&cannoli=ClickHunts&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
+        "name": "ClicksAdv",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=ClicksAdv&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
+    },
+    {
+        "name": "CPAGetti",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "?orderid={convid}&amount={money}&cy={currency}&status=approved&type={status}&product={offer}&cannoli=CPAGetti&dash=0&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
+    },
+    {
+        "name": "CPAHouse",
+        "parameters": [
+            "sub_id_1",
+            "sub_id_2",
+            "sub_id_3",
+            "sub4_id_4"
+        ],
+        "highlight": "sub_id_2",
+        "postbackQueryString": "orderid={id_order}&amount={amount_commission}&cy={currency_code}&status=approved&product={id_offer}&type={status}&cannoli=CPAHouse&subid1={sub_id_1}&subid2={sub_id_2}&subid3={sub_id_3}&subid4={sub_id_4}&dash=1"
+    },
+    {
         "name": "Digistore24",
         "parameters": [
             "sid1",
@@ -150,6 +185,18 @@
         ],
         "highlight": "sub2",
         "postbackQueryString": "orderid={uuid}&product={offer}&amount={payment}&cy={currency}&status=approved&type={status}&cannoli=DrCash&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
+    },
+    {
+        "name": "EverAd",
+        "parameters": [
+            "sid1",
+            "sid2",
+            "sid3",
+            "sid4",
+            "sid5"
+        ],
+        "highlight": "sid2",
+        "postbackQueryString": "?orderid={id}&product={offer_id}&amount={payout}&cy={currency}&status=approved&type={status}&cannoli=EverAd&dash=1&subid1={sid1}&subid2={sid2}&subid3={sid3}&subid4={sid4}&subid5={sid5}"
     },
     {
         "name": "Everflow",
@@ -203,6 +250,18 @@
         ],
         "highlight": "subid_two",
         "postbackQueryString": "orderid=[commission_id]&amount=[commission_amount]&product=[product_name]&status=approved&cy=USD&cannoli=HealthTrader&dash=1&subid1=[subid_one]&subid2=[subid_two]&subid3=[subid_three]&subid4=[referring_url]"
+    },
+    {
+        "name": "LeadBit",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={id}&product={offer}&amount={cost}&cy={currency}&status=approved&type={status}&cannoli=LeadBit&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "LeadReaktor",
@@ -285,6 +344,18 @@
         "postbackQueryString": "orderid=&amount={payout_usd}&cy=USD&status=approved&type={payment}&product=&cannoli=Nutriprofits&dash=1&subid1={param}&subid2={param_2}&subid3={param_3}&subid4={param_4}"
     },
     {
+        "name": "ProfitPay",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={id}&product={offername}&amount={cash}&currency=USD&cannoli=ProfitPay&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&type={stage}&status=approved&dash=1"
+    },
+    {
         "name": "SellHealth",
         "parameters": [
             "t1",
@@ -295,6 +366,18 @@
         ],
         "highlight": "t2",
         "postbackQueryString": "orderid=[ORDER-NUMBER]&amount=[COMMISSION]&cy=USD&status=approved&cannoli=SellHealth&dash=1&subid1=[TRACKING-ID-1]&subid2=[TRACKING-ID-2]&subid3=[TRACKING-ID-3]&subid4=[TRACKING-ID-4]&subid5=[TRACKING-ID-5]"
+    },
+    {
+        "name": "ShakesPRO",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={id}&product={offer}&amount={cost}&cy=USD&status=approved&type={status}&cannoli=ShakesPRO&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}"
     },
     {
         "name": "SmartAdv",
@@ -330,5 +413,17 @@
         ],
         "highlight": "sub_id_1",
         "postbackQueryString": "orderid={lead_id}&amount={payout}&cy=USD&status=approved&product={offer_id}&cannoli=TerraLeads&dash=1&subid1={sub_id}&subid2={sub_id_1}&subid3={sub_id_2}&subid4={sub_id_3}&subid5={sub_id_4}"
+    },
+    {
+        "name": "TrafficLight",
+        "parameters": [
+            "utm_source",
+            "utm_medium",
+            "utm_campaign",
+            "utm_content",
+            "utm_term"
+        ],
+        "highlight": "utm_medium",
+        "postbackQueryString": "orderid={id}&amount={payout}&cy={payout_currency}&status=approved&product={offer_id}&cannoli=TrafficLight&dash=1&subid1={utm_source}&subid2={utm_medium}&subid3={utm_campaign}&subid4={utm_content}&subid5={utm_term}"
     }
 ]
