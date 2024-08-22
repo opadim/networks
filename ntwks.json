@@ -227,7 +227,7 @@
             "aff_sub5"
         ],
         "highlight": "aff_sub2",
-        "postbackQueryString": "orderid={event_id}&amount={payout}&cy={currency}&status=approved&product={offer_id}&cannoli=GiantMobi&dash=1&subid1={aff_sub1}&subid2={aff_sub2}&subid3={aff_sub3}&subid4={aff_sub4}&subid5={aff_sub5}&cid={click_id}"
+        "postbackQueryString": "orderid={event_id}&amount={payout}&cy={currency}&status=approved&product={offer_id}&cannoli=GiantMobi&dash=1&subid1={aff_sub1}&subid2={aff_sub2}&subid3={aff_sub3}&subid4={aff_sub4}&subid5={aff_sub5}"
     },
     {
         "name": "Gurumedia",
