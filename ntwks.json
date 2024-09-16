@@ -196,7 +196,7 @@
             "sid5"
         ],
         "highlight": "sid2",
-        "postbackQueryString": "?orderid={id}&product={offer_id}&amount={payout}&cy={currency}&status=approved&type={status}&cannoli=EverAd&dash=1&subid1={sid1}&subid2={sid2}&subid3={sid3}&subid4={sid4}&subid5={sid5}"
+        "postbackQueryString": "orderid={id}&product={offer_id}&amount={payout}&cy={currency}&status=approved&type={status}&cannoli=EverAd&dash=1&subid1={sid1}&subid2={sid2}&subid3={sid3}&subid4={sid4}&subid5={sid5}"
     },
     {
         "name": "Everflow",
