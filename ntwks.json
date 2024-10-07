@@ -36,7 +36,7 @@
         "postbackQueryString": "orderid={contact_id}&amount={payout}&product={product}&subid1={subid1}&subid2={subid2}&subid3={subid3}&subid4={subid4}&subid5={subid5}&cid={click_id}&currency=USD&status=approved&cannoli=Affbay"
     },
     {
-        "name": "Ambalaya",
+        "name": "365Conversions (Ambalaya)",
         "parameters": [
             "sub1",
             "sub2",
