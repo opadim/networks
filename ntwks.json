@@ -208,7 +208,7 @@
             "sub5"
         ],
         "highlight": "sub2",
-        "postbackQueryString": "orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=SmartAdv&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
+        "postbackQueryString": "orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=Everflow&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "Gasmobi",
@@ -319,6 +319,18 @@
         ],
         "highlight": "subid2",
         "postbackQueryString": "orderid={ORDERID}&amount={COMMISSION_AMOUNT}&cy=USD&status=approved&product={PRODUCT_CODENAME}&cannoli=Maxweb&dash=1&subid1={SUBID}&subid2={SUBID2}&subid3={SUBID3}&subid4={SUBID4}&subid5={SUBID5}"
+    },
+    {
+        "name": "MediaScalers",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=MediaScalers&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "MoreNiche",
