@@ -367,6 +367,18 @@
         "postbackQueryString": "orderid=&amount={payout_usd}&cy=USD&status=approved&type={payment}&product=&cannoli=Nutriprofits&dash=1&subid1={param}&subid2={param_2}&subid3={param_3}&subid4={param_4}"
     },
     {
+        "name": "ProfitsNXT",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=ProfitsNXT&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
+    },
+    {
         "name": "ProfitPay",
         "parameters": [
             "sub1",
