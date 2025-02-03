@@ -252,6 +252,17 @@
         "postbackQueryString": "orderid=[commission_id]&amount=[commission_amount]&product=[product_name]&status=approved&cy=USD&cannoli=HealthTrader&dash=1&subid1=[subid_one]&subid2=[subid_two]&subid3=[subid_three]&subid4=[referring_url]"
     },
     {
+        "name": "KMABiz",
+        "parameters": [
+            "data1",
+            "data2",
+            "data3",
+            "data4"
+        ],
+        "highlight": "data2",
+        "postbackQueryString": "orderid={orderid}&amount={sum}&currency_id={currency}&status=approved&type={status}&product={campaignid}&cannoli=KMABiz&dash=1&subid1={data1}&subid2={data2}&subid3={data3}&subid4={data4}"
+    },
+    {
         "name": "LeadBit",
         "parameters": [
             "sub1",
