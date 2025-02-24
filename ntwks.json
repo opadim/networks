@@ -254,10 +254,10 @@
     {
         "name": "KMABiz",
         "parameters": [
-            "data1",
-            "data2",
-            "data3",
-            "data4"
+            "d1",
+            "d2",
+            "d3",
+            "d4"
         ],
         "highlight": "data2",
         "postbackQueryString": "orderid={orderid}&amount={sum}&currency_id={currency}&status=approved&type={status}&product={campaignid}&cannoli=KMABiz&dash=1&subid1={data1}&subid2={data2}&subid3={data3}&subid4={data4}"
