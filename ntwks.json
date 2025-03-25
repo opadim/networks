@@ -344,6 +344,18 @@
         "postbackQueryString": "orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=MediaScalers&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
+        "name": "MetaCPA",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={id}&amount={payout}&cy={currency}&status=approved&product={offer_id}&cannoli=MetaCPA&dash=0&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}&type={status_text}"
+    },
+    {
         "name": "MoreNiche",
         "parameters": [
             "sub1",
