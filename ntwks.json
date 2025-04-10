@@ -72,6 +72,18 @@
         "postbackQueryString": "orderid={ORDERID}&amount={COMMISSION_AMOUNT}&cy=USD&status=approved&product={PRODUCT_CODENAME}&cannoli=BuyGoods&dash=1&subid1={SUBID}&subid2={SUBID2}&subid3={SUBID3}&subid4={SUBID4}&subid5={SUBID5}"
     },
     {
+        "name": "CashFactories",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={id}&product={offername}&amount={cash}&cy={currency}&cannoli=CashFactories&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&type={stage}&status=approved&dash=1"
+    },
+    {
         "name": "Clickbank v8.0",
         "parameters": [
             "aff_sub1",
@@ -400,7 +412,7 @@
             "sub5"
         ],
         "highlight": "sub2",
-        "postbackQueryString": "orderid={id}&product={offername}&amount={cash}&currency=USD&cannoli=ProfitPay&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&type={stage}&status=approved&dash=1"
+        "postbackQueryString": "orderid={id}&product={offername}&amount={cash}&cy={currency}&cannoli=ProfitPay&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&type={stage}&status=approved&dash=1"
     },
     {
         "name": "SellHealth",
