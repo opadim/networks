@@ -9,7 +9,7 @@
             "clickid"
         ],
         "highlight": "clickid",
-        "postbackQueryString": "orderid={trans_id}&product={offer_id}&amount={revenue}&currency=USD&cannoli=Adcombo&subid1={subacc}&subid2={subacc2}&subid3={subacc3}&subid4={subacc4}&cid={clickid}&type={status}&status=approved&dash=1"
+        "postbackQueryString": "orderid={trans_id}&product={offer_id}&amount={revenue}&cy=USD&cannoli=Adcombo&subid1={subacc}&subid2={subacc2}&subid3={subacc3}&subid4={subacc4}&cid={clickid}&type={status}&status=approved&dash=1"
     },
     {
         "name": "Adexico",
