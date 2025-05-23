@@ -72,6 +72,19 @@
         "postbackQueryString": "orderid={ORDERID}&amount={COMMISSION_AMOUNT}&cy=USD&status=approved&product={PRODUCT_CODENAME}&cannoli=BuyGoods&dash=1&subid1={SUBID}&subid2={SUBID2}&subid3={SUBID3}&subid4={SUBID4}&subid5={SUBID5}"
     },
     {
+        "name": "CartPanda",
+        "parameters": [
+            "utm_source",
+            "utm_medium",
+            "utm_campaign",
+            "utm_content",
+            "utm_term",
+            "cid"
+        ],
+        "highlight": "cid",
+        "postbackQueryString": "orderid={order_id}&amount={amount_affiliate}&cy={currency}&status=approved&product={product_name}&cannoli=CartPanda&type={order_type}&dash=1&subid1={utm_source}&subid2={utm_medium}&subid3={utm_campaign}&subid4={utm_content}&subid5={utm_term}&cid={cid}"
+    },
+    {
         "name": "CashFactories",
         "parameters": [
             "sub1",
