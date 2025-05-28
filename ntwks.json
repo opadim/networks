@@ -197,7 +197,7 @@
             "cid"
         ],
         "highlight": "cid",
-        "postbackQueryString": "orderid={transaction_id}&amount={amount_affiliate}&cy={currency}&status={billing_status}&product={product_name}&cannoli=Digistore24&dash=1&subid1={sid1}&subid2={sid2}&subid3={sid3}&subid4={sid4}&subid5={sid5}&cid={cid}"
+        "postbackQueryString": "orderid={transaction_id}&amount={amount_affiliate}&cy={currency}&status=approved&type={billing_status}&product={product_name}&cannoli=Digistore24&dash=1&subid1={sid1}&subid2={sid2}&subid3={sid3}&subid4={sid4}&subid5={sid5}&cid={cid}"
     },
     {
         "name": "Dr.Cash",
