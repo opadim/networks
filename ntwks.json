@@ -330,9 +330,10 @@
             "utm_medium",
             "utm_campaign",
             "utm_content",
-            "utm_term"
+            "utm_term",
+            "clickid"
         ],
-        "highlight": "utm_medium",
+        "highlight": "clickid",
         "postbackQueryString": "orderid={leadid}&product=&amount={payout}&cy={currency}&status=approved&type={status}&cannoli=LemonAd&dash=1&subid1={utmSource}&subid2={utmMedium}&subid3={utmCampaign}&subid4={utmContent}&subid5={utmTerm}&cid={clickid}"
     },
     {
