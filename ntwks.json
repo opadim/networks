@@ -394,6 +394,17 @@
         "postbackQueryString": "orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=MoreNiche&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
+        "name": "Netvork",
+        "parameters": [
+            "utm_medium",
+            "utm_campaign",
+            "utm_content",
+            "utm_term"
+        ],
+        "highlight": "utm_campaign",
+        "postbackQueryString": "orderid={lead_guid}&status=approved&amount={money}&cy={currency}&cannoli=Netvork&subid1={utm_medium}&subid2={utm_campaign}&subid3={utm_content}&subid4={utm_term}"
+    },
+    {
         "name": "Nutriprofits",
         "parameters": [
             "param",
