@@ -60,6 +60,18 @@
         "postbackQueryString": "orderid=#tid#&amount=#price#&cy=USD&status=approved&product=#oid#&cannoli=BlitzAds&dash=1&subid1=#s1#&subid2=#s2#&subid3=#s3#&subid4=#s4#&subid5=#s5#"
     },
     {
+        "name": "BlueWave",
+        "parameters": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5"
+        ],
+        "highlight": "s2",
+        "postbackQueryString": "orderid=#tid#&amount=#price#&cy=USD&status=approved&product=#oid#&cannoli=BlueWave&dash=1&subid1=#s1#&subid2=#s2#&subid3=#s3#&subid4=#s4#&subid5=#s5#"
+    },
+    {
         "name": "Buygoods",
         "parameters": [
             "subid",
