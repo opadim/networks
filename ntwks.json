@@ -176,6 +176,18 @@
         "postbackQueryString": "orderid={transaction_id}&amount={payout_amount}&cy={offer_currency}&status=approved&product={offer_name}&cannoli=ClicksAdv&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
+        "name": "CPACombo",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ],
+        "highlight": "sub2",
+        "postbackQueryString": "orderid={aff_click_id}&amount={payout}&cy={currency}&status=approved&type={status_text}&product={offer_id}&cannoli=CPACombo&dash=1&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
+    },
+    {
         "name": "CPAGetti",
         "parameters": [
             "sub1",
@@ -185,7 +197,7 @@
             "sub5"
         ],
         "highlight": "sub2",
-        "postbackQueryString": "?orderid={convid}&amount={money}&cy={currency}&status=approved&type={status}&product={offer}&cannoli=CPAGetti&dash=0&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
+        "postbackQueryString": "orderid={convid}&amount={money}&cy={currency}&status=approved&type={status}&product={offer}&cannoli=CPAGetti&dash=0&subid1={sub1}&subid2={sub2}&subid3={sub3}&subid4={sub4}&subid5={sub5}"
     },
     {
         "name": "CPAHouse",
